@@ -11,9 +11,13 @@ enum Role {
 }
 
 enum AnotherRole {
-    Admin(1), Anonymous(0), Author(5), Publisher(6);
+    Admin(1), Anonymous, Author(5), Publisher(6);
 
     private int roleId;
+
+    AnotherRole() {
+        roleId = 0;
+    }
 
     AnotherRole(int r) {
         roleId = r;
@@ -96,6 +100,8 @@ public class EnumTest {
         Stream.of(AnotherRole.values())
                 .filter((r) -> r.getRoleId() != 0)
                 .forEach((r) -> System.out.println(r + ": " + r.getRoleId()));
+
+        Assert.assertThat(AnotherRole.Anonymous.getRoleId(), is(0));
     }
 
     @Test
