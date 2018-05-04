@@ -46,3 +46,12 @@ enum Role {
 }
 
 ```
+#### Enumerations inherit Enum
+- can't inherit superclass when declaring an enum.
+- all enumerations automatically inherit: __java.lang.Enum__
+couple of more methods:
+```java
+final int ordial(); //constant's position
+final int compareTo(enume-type e); //difference between two enums of same enumeration type.
+final boolean equals(Object o); // true if both refer to same constant within same enumeration
+```

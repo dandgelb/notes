@@ -107,5 +107,11 @@ public class EnumTest {
     @Test
     public void testRoleAbbreviation() {
         Assert.assertThat(RoleAbbreviation.Admin.getRoleAbbreviation(), is('A'));
+        Assert.assertEquals(RoleAbbreviation.Admin.toString(), RoleAbbreviation.Admin.name());
+        Stream.of(RoleAbbreviation.values())
+                .forEach((r) -> System.out.println(r.toString() + " => " + r.ordinal()));
+
+        Assert.assertEquals(-3, RoleAbbreviation.Admin.compareTo(RoleAbbreviation.Publisher));
+        Assert.assertEquals(2, RoleAbbreviation.Publisher.compareTo(RoleAbbreviation.Anonymous));
     }
 }

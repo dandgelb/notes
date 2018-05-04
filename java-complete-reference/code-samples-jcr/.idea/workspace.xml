@@ -22,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnumTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnumTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EnumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="103" column="68" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="68" />
+            <state relative-caret-position="188">
+              <caret line="114" column="97" selection-start-line="114" selection-start-column="97" selection-end-line="114" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#324#325#0" expanded="true" />
@@ -41,8 +41,19 @@
                 <element signature="e#623#624#0" expanded="true" />
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#2540#2541#0" expanded="true" />
-                <element signature="e#2628#2629#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enum.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$USER_HOME$/install/jdk1.8.0_162/src.zip!/java/lang/Enum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="140" column="7" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="7" />
+              <folding>
+                <element signature="e#2036#2037#0" expanded="true" />
+                <element signature="e#2063#2064#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnumTest.testAnotherRole">
+  <component name="RunManager" selected="JUnit.EnumTest.testRoleAbbreviation">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -273,8 +284,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EnumTest.testAnotherRole" />
         <item itemvalue="JUnit.EnumTest.testRoleAbbreviation" />
+        <item itemvalue="JUnit.EnumTest.testAnotherRole" />
         <item itemvalue="JUnit.EnumTest.testEnumPredefinedMethods" />
         <item itemvalue="JUnit.EnumTest.testEnum" />
         <item itemvalue="JUnit.EnumTest" />
@@ -292,34 +303,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnumTest_testAnotherRole - 2018.05.05 at 01h 59m 42s.xml">
-      <configuration name="EnumTest.testAnotherRole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumTest_testAnotherRole - 2018.05.05 at 02h 00m 28s.xml">
-      <configuration name="EnumTest.testAnotherRole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumTest_testAnotherRole - 2018.05.05 at 02h 01m 27s.xml">
-      <configuration name="EnumTest.testAnotherRole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumTest_testAnotherRole - 2018.05.05 at 02h 01m 59s.xml">
-      <configuration name="EnumTest.testAnotherRole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumTest_testAnotherRole - 2018.05.05 at 02h 02m 55s.xml">
-      <configuration name="EnumTest.testAnotherRole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumTest_testAnotherRole - 2018.05.05 at 02h 03m 07s.xml">
-      <configuration name="EnumTest.testAnotherRole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumTest_testAnotherRole - 2018.05.05 at 02h 03m 33s.xml">
-      <configuration name="EnumTest.testAnotherRole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumTest_testAnotherRole - 2018.05.05 at 02h 14m 33s.xml">
-      <configuration name="EnumTest.testAnotherRole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 26m 29s.xml">
+    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 34m 37s.xml">
       <configuration name="EnumTest.testRoleAbbreviation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 26m 45s.xml">
+    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 41m 50s.xml">
+      <configuration name="EnumTest.testRoleAbbreviation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 42m 16s.xml">
+      <configuration name="EnumTest.testRoleAbbreviation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 43m 21s.xml">
+      <configuration name="EnumTest.testRoleAbbreviation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 43m 38s.xml">
+      <configuration name="EnumTest.testRoleAbbreviation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 44m 54s.xml">
+      <configuration name="EnumTest.testRoleAbbreviation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 45m 26s.xml">
+      <configuration name="EnumTest.testRoleAbbreviation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 45m 45s.xml">
+      <configuration name="EnumTest.testRoleAbbreviation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 47m 38s.xml">
+      <configuration name="EnumTest.testRoleAbbreviation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testRoleAbbreviation - 2018.05.05 at 02h 48m 29s.xml">
       <configuration name="EnumTest.testRoleAbbreviation" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -391,10 +402,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/install/jdk1.8.0_162/src.zip!/java/util/EnumSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="115" column="12" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="103" column="68" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="68" />
+        <state relative-caret-position="188">
+          <caret line="114" column="97" selection-start-line="114" selection-start-column="97" selection-end-line="114" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#324#325#0" expanded="true" />
@@ -409,8 +427,17 @@
             <element signature="e#623#624#0" expanded="true" />
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#2540#2541#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/install/jdk1.8.0_162/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="140" column="7" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="7" />
+          <folding>
+            <element signature="e#2036#2037#0" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
           </folding>
         </state>
       </provider>
