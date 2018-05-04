@@ -25,8 +25,8 @@
       <file leaf-file-name="EnumTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EnumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="165">
+              <caret line="53" column="35" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#109#110#0" expanded="true" />
@@ -147,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnumTest.noTest">
+  <component name="RunManager" selected="JUnit.EnumTest.testEnumPredefinedMethods">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="code-samples-jcr" />
@@ -156,6 +156,23 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="EnumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-samples-jcr" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnumTest" />
+      <option name="METHOD_NAME" value="testEnum" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="EnumTest.noTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-samples-jcr" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -163,6 +180,40 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EnumTest" />
       <option name="METHOD_NAME" value="noTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EnumTest.testEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-samples-jcr" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnumTest" />
+      <option name="METHOD_NAME" value="testEnum" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EnumTest.testEnumPredefinedMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-samples-jcr" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnumTest" />
+      <option name="METHOD_NAME" value="testEnumPredefinedMethods" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -196,9 +247,15 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.EnumTest.noTest" />
+      <item itemvalue="JUnit.EnumTest.testEnum" />
+      <item itemvalue="JUnit.EnumTest" />
+      <item itemvalue="JUnit.EnumTest.testEnumPredefinedMethods" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnumTest.testEnumPredefinedMethods" />
+        <item itemvalue="JUnit.EnumTest.testEnum" />
+        <item itemvalue="JUnit.EnumTest" />
         <item itemvalue="JUnit.EnumTest.noTest" />
         <item itemvalue="Application.App" />
       </list>
@@ -213,6 +270,38 @@
       <updated>1525462757550</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="EnumTest_noTest - 2018.05.05 at 01h 21m 06s.xml">
+      <configuration name="EnumTest.noTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testEnum - 2018.05.05 at 01h 26m 31s.xml">
+      <configuration name="EnumTest.testEnum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest - 2018.05.05 at 01h 28m 27s.xml">
+      <configuration name="EnumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest - 2018.05.05 at 01h 33m 48s.xml">
+      <configuration name="EnumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testEnum - 2018.05.05 at 01h 37m 27s.xml">
+      <configuration name="EnumTest.testEnum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testEnum - 2018.05.05 at 01h 37m 59s.xml">
+      <configuration name="EnumTest.testEnum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testEnum - 2018.05.05 at 01h 39m 25s.xml">
+      <configuration name="EnumTest.testEnum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testEnumPredefinedMethods - 2018.05.05 at 01h 44m 07s.xml">
+      <configuration name="EnumTest.testEnumPredefinedMethods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testEnumPredefinedMethods - 2018.05.05 at 01h 44m 58s.xml">
+      <configuration name="EnumTest.testEnumPredefinedMethods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumTest_testEnumPredefinedMethods - 2018.05.05 at 01h 46m 29s.xml">
+      <configuration name="EnumTest.testEnumPredefinedMethods" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -265,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="165">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#109#110#0" expanded="true" />

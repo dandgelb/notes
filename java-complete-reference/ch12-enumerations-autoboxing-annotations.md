@@ -27,3 +27,10 @@ switch(role) {
 System.out.println(role);
 //prints: 'Admin'
 ```
+#### values() and valuesOf() methods
+- all enumerations contain two pre-defined methods
+
+```java
+public static enum-type [] values();
+public static enum-type valueOf(String str);
+```
