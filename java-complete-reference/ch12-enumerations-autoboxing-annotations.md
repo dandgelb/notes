@@ -34,3 +34,15 @@ System.out.println(role);
 public static enum-type [] values();
 public static enum-type valueOf(String str);
 ```
+#### Java Enumerations Are Class type
+- can give them constructors, add instance variables and methods, and even implement interfaces.
+
+```java
+enum Role {
+  Admin(1), Anonymous(0), Author(5), Publisher(6);
+  private int roleId;
+  Role(int r) { roleId = r ; }
+  int getRoleId() { return roleId ; }
+}
+
+```
