@@ -82,3 +82,53 @@ boolean booleanValue();
   Integer(int num);
   Integer(String str);
   ```
+
+#### Annotations
+- supplimental information to the source file
+- leaves the semantics of the program unchanged.
+- aka _metadata_
+
+```java
+@interface MyAnnotation {
+  String str();
+  int val();
+}
+```
+- only method declaration in annotation, Java implements these methods - acts like fields
+- cannot include __extends__ clause.
+- __Annotation__ is the super-interface of all Annotations.
+  - overrides:
+  ```java
+  int hashCode();
+  boolean equals(Object obj);
+  String toString();
+  Class<? extends Annotation> annotationType(); //additional
+  ```
+- can be associated with any type: classes, methods, fields, parameters, and enum constants, even annotations;
+```java
+@MyAnnotation(str = "Annotation Example", value = 100)
+public static void myMethod() {
+  //
+}
+```
+#### Specifying a Retention Policy
+- at what point an annotation is discarded
+- __SOURCE__: retained only in source file, discarded during compilation
+- __CLASS__: stored in .class file during compilation
+- __RUNTIME__: stored in .class file and is available through the JVM during run time.
+
+```Java
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+@Retention(RetentionPolicy.RUNTIME)
+@interface MyAnnotation {
+  String str();
+  int val();
+}
+```
+
+#### Obtaining Annotations at Run Time by Use of Reflection
+- Reflection API: __java.lang.reflect__ package
+- Steps:
+  - obtain a __Class__ object that represents the class whose annotations you want to obtain
+  - use __Class__'s methods to obtain information about the various items declared by the class

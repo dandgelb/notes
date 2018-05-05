@@ -1,3 +1,4 @@
+package com.examples.ch12;
 import org.junit.Assert;
 import org.junit.Test;
 
