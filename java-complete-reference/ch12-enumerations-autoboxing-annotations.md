@@ -55,3 +55,30 @@ final int ordial(); //constant's position
 final int compareTo(enume-type e); //difference between two enums of same enumeration type.
 final boolean equals(Object o); // true if both refer to same constant within same enumeration
 ```
+
+#### Type Wrappers
+- Double, Float, Long, Integer, Short, Byte, Character, and Boolean
+- Character
+```java
+Character(char ch);
+char charValue();
+```
+- Boolean
+```java
+Boolean(boolean boolValue);
+Boolean(String boolString);
+boolean booleanValue();
+```
+- The Numeric Type Wrappers - Byte, Short, Integer, Long, Float, Double
+  - inherits abstract class __Number__
+
+  ```java
+  byte byteValue();
+  double doubleValue();
+  float floatValue();
+  int intValue();
+  long longValue();
+  short shortValue();
+  Integer(int num);
+  Integer(String str);
+  ```
