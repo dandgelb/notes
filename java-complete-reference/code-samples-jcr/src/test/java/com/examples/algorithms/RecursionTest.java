@@ -1,4 +1,4 @@
-package com.examples.recursion;
+package com.examples.algorithms;
 
 import org.junit.Test;
 
