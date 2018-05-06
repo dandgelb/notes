@@ -1,24 +1,26 @@
 
 #### Multi-tasking
-  - process based - run two or more programs concurrently
-  - thread based - a single program can perform two or more tasks simultaneously
+- process based - run two or more programs concurrently
+- thread based - a single program can perform two or more tasks simultaneously
+
 #### Java Thread Model
- - enable the entire environment to be asynchronous
- - single thread systems
-  - event loop or polling(a single event queue) based mechanism
- - one thread can pause without stopping other parts of your system
- - fork/join framework - for mutli core environments - part of Java's support for parallel programming
- - Thread states
-    - running, ready to run, suspended, resumed, blocked, terminated
+- enable the entire environment to be asynchronous
+- single thread systems
+- event loop or polling(a single event queue) based mechanism
+- one thread can pause without stopping other parts of your system
+- fork/join framework - for mutli core environments - part of Java's support for parallel programming
+- Thread states
+  - running, ready to run, suspended, resumed, blocked, terminated
 
 #### Thred priorities
- - relative
- - used to decide when to switch from one running thread to the next
-   - context switch
-    - a thread can voluntarily relinquish control - explicitly yielding, sleeping or blocking on pending I/O
-    - a thread can be preempted by a higher-priority thread - preemptive multitasking
+- relative
+- used to decide when to switch from one running thread to the next
+- context switch
+  - a thread can voluntarily relinquish control - explicitly yielding, sleeping or blocking on pending I/O
+  - a thread can be preempted by a higher-priority thread - preemptive multitasking
+
 #### Synchronization
- - monitor -C. A. R. Hoare
+- monitor -C. A. R. Hoare
 
 #### Messaging
 
@@ -48,4 +50,22 @@ Thread.NORM_PRIORITY;
 - _monitor_ is an object that is used as a mutually exclusive lock
 - only one thread can _own_ a monitor at a given time.
 
-###### Using synchronized methods
+#### Using synchronized methods
+```java
+synchronized(objRef) {
+  //
+}
+```
+#### Interthread Communication
+- multithreading
+  - replaces event loop programming by dividing tasks into discrete, logical units.
+  - do away with polling - e.g. in classic queuing problem consumer would waste CPU cycles while it waited producer to produce and vice versa.
+
+```java
+public final native void wait(long timeout) throws InterruptedException;
+public final native void notify();
+public final native void notifyAll();
+```
+- __wait( )__ tells the calling thread to give up the monitor and go to sleep until some other thread enters the same monitor and calls __notify( )__ or __notifyAll( )__.
+- __notify( )__ wakes up a thread that called __wait( )__ on the same object.
+- __notifyAll( )__ wakes up all the threads that called __wait( )__ on the same object. One of the threads will be granted access.

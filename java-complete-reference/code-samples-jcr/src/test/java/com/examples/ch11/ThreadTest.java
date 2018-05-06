@@ -82,8 +82,7 @@ public class ThreadTest {
 		try {
 			t.join();//test thread is exiting instantly
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+s			e.printStackTrace();
 		}
 	}
 	
@@ -161,6 +160,7 @@ public class ThreadTest {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+		java.lang.Object
 
 	}
 }
