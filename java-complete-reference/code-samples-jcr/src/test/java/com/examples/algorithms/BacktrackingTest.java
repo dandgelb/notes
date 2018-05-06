@@ -5,16 +5,17 @@ import org.junit.Test;
 import java.util.Vector;
 
 class Dice {
+    public int calls = 0;
     public void diceSumHelper(int dice, int desiredSum, Vector<Integer> chosen) {
         System.out.println("diceSum(" + dice + ", \"" + desiredSum +"\", " + chosen +  ")" );
-        //TODO
+        calls++;
         if(dice == 0) {
             //do nothing
             //base case
             if(desiredSum == 0) {
                 System.out.println(chosen);
             }
-        } else  {
+        } else if(desiredSum >= dice * 1 && desiredSum <= dice * 6) {
             //i will handle 1 die;
             //try all possible values - 1 through 6 - to see if they can work
             for (int i = 1; i <= 6; i++) {
@@ -23,7 +24,6 @@ class Dice {
                 //"explore" what could follow that
                 diceSumHelper(dice -1, desiredSum - i, chosen);
                 //"un-choose" i
-                //TODO
                 chosen.remove(chosen.size() - 1);
 
             }
@@ -52,5 +52,6 @@ public class BacktrackingTest {
         
         Dice dice = new Dice();
         dice.diceSum(3, 7);
+        System.out.println(dice.calls);
     }       
 }
